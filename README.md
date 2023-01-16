@@ -1,14 +1,13 @@
-# Старт новой сессии со своим именем
+# tmux sessions
 tmux new-session -s "name"
  
- 
-Заходим в существующую сессию
+How to enter session 
 tmux attach -t "name"
  
-Отключить сессию
+how to kill
 tmux kill-session -t "name"
 
-# Очистка swap and cache на сервере
+# how to clear swap and cache on server
 sudo swapoff -a && sudo swapon -a  (очистка swap)
 
 sudo mc -e /proc/sys/vm/drop_caches ---> в открывшемся окне записать значение 3 (очистка cache)
