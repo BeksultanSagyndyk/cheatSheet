@@ -1,4 +1,4 @@
-Пример скрипта с распараллеливанием потоков
+# with paralleling
  
  
 def process_score(value, all_pred, y_true):
@@ -119,7 +119,7 @@ def lift_metric_plot(model, X_test, y_test):
  
  
  
-Пример скрипта на одном потоке
+# without paralleling, on one flow
  
  
 def lift_metric_plot(model, X_test, y_test):
