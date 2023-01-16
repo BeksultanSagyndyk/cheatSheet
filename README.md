@@ -2,9 +2,11 @@
 tmux new-session -s "name"
  
 How to enter session 
+
 tmux attach -t "name"
  
 how to kill
+
 tmux kill-session -t "name"
 
 # how to clear swap and cache on server
