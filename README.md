@@ -9,6 +9,15 @@ tmux attach -t "name"
 tmux kill-session -t "name"
 
 # Очистка swap and cache на сервере
-**sudo swapoff -a && sudo swapon -a  (очистка swap)
+sudo swapoff -a && sudo swapon -a  (очистка swap)
 
 sudo mc -e /proc/sys/vm/drop_caches ---> в открывшемся окне записать значение 3 (очистка cache)
+
+# how to create new env
+python3 -m venv myenv
+# how to activate it
+source myenv/bin/activate
+# how to add it to kernels in jupyter notebook
+pip install ipykernel
+
+ipython kernel install --user --name=envname 
