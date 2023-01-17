@@ -22,3 +22,11 @@ source myenv/bin/activate
 pip install ipykernel
 
 ipython kernel install --user --name=envname 
+
+#crossJoin in Pandas
+
+s['key'] = 0
+
+ss['key'] = 0
+
+res = ss.merge(s, on='key', how='outer')
