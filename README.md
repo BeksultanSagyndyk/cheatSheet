@@ -23,7 +23,7 @@ pip install ipykernel
 
 ipython kernel install --user --name=envname 
 
-#crossJoin in Pandas
+# crossJoin in Pandas
 
 s['key'] = 0
 
