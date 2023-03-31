@@ -30,3 +30,7 @@ s['key'] = 0
 ss['key'] = 0
 
 res = ss.merge(s, on='key', how='outer')
+
+# run long playing script in tmux
+
+nohup python blip-large-training-inference.py > prints_debug.out 2>&1 &
