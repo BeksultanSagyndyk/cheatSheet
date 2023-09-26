@@ -3,7 +3,7 @@
 Create a new session:
 
 
-\```
+\```bash
 tmux new-session -s "name"
 \```
 
