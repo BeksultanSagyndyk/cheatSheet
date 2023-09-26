@@ -3,9 +3,9 @@
 Create a new session:
 
 
-\```bash
+```bash
 tmux new-session -s "name"
-\```
+```
 
 
 How to enter a session:
