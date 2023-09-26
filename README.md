@@ -63,9 +63,13 @@ res = ss.merge(s, on='key', how='outer')
 
 # Run a long-playing script in tmux
 
-\```
+
+
+```bash
 nohup python blip-large-training-inference.py > prints_debug.out 2>&1 &
-\```
+```
+
+
 
 # Environment
 
