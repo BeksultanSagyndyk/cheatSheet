@@ -2,9 +2,11 @@
 
 Create a new session:
 
+
 \```
 tmux new-session -s "name"
 \```
+
 
 How to enter a session:
 
